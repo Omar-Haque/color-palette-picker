@@ -7,7 +7,6 @@ import { hexToRgb, rgbToHex } from "@mui/material/styles";
 
 export default function Home() {
     const [color, setColor] = useColor("#000");
-    console.log(color);
 
     // input: h in [0,360] and s,v in [0,1] - output: r,g,b in [0,1]
     function hsv2rgb(h, s, v) {
